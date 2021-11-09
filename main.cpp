@@ -68,8 +68,8 @@ double median(int *point, int size) {
         display(point, size);
 	if (!(size % 2 == 0)) {//odd
         cout << "odd" << endl;
-        int midpoint = (size + 1) / 2;
-        return (*(point + midpoint)) / 2.0;
+        int midpoint = (size) / 2;
+        return (*(point + midpoint));
 	}
 	else {//even
         cout << "even" << endl;
